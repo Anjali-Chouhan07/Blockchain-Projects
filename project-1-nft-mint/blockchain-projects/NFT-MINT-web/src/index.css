@@ -1,0 +1,295 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #0c0629, #000000);
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+}
+
+.upload-status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f3f7fc;
+  font-weight: 500;
+}
+
+/* MAIN LAYOUT */
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* BRAND TITLE */
+.brand-title {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f0f4ef;
+  text-shadow: 
+      0 0 20px rgba(9, 97, 121, 0.8),
+      0 0 40px rgba(17, 69, 32, 0.5),
+      0 0 20px rgba(26, 62, 82, 0.3);
+}
+
+/* LEFT SECTION */
+.left-section {
+  position: relative;
+  left: 10%;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 60px;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #68dde8;
+  text-shadow: 
+      0 0 10px rgba(0, 255, 64, 0.8),
+      0 0 0px rgba(34, 69, 17, 0.5),
+      0 0 10px rgba(34, 26, 82, 0.3);
+  margin-bottom: 30px;
+}
+
+.left-section p {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* BUTTONS */
+.primary-btn,
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #00c6ff33, #0072ff33);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+  box-shadow: 0 0 18px rgba(0, 150, 255, 0.30);
+}
+
+.primary-btn:hover,
+button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #00e7ff55, #007aff55);
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.6);
+}
+
+/* RIGHT SECTION */
+.right-section {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-hero {
+  height: 520px;
+  filter: drop-shadow(10px 10px 25px rgba(0, 180, 255, 0.35));
+}
+
+/* UPLOAD STYLING */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.upload-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #d1d5db;
+}
+
+.sub-text {
+  font-size: 14px;         
+  color: #bfc1c5;          
+  margin-top: 6px;         
+  line-height: 1.5;      
+}
+
+.upload-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-file-white {
+  width: 100%;
+  padding: 12px;
+  background: #ffffff;
+  color: #444 !important;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input-file-white:hover {
+  border-color: #888;
+}
+
+.upload-action-btn {
+  background: #059669;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.upload-action-btn:hover {
+  background: #047857;
+}
+
+/* RESPONSIVE STYLES */
+
+/* Tablet / small desktop (≤1200px) */
+@media (max-width: 1200px) {
+  .main {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  /* Right section on top */
+  .right-section {
+    order: 1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    grid-auto-rows: auto;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .left-section {
+    order: 2; /* appears below */
+    width: 90%;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  .heading {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .sub-text {
+    text-align: center;
+  }
+
+  .nft-hero {
+    height: 250px;
+    width: auto;
+  }
+
+  .upload-box {
+    flex-direction: column;
+  }
+
+  .upload-action-btn {
+    width: 100%;
+  }
+
+  .input-file-white {
+    width: 100%;
+  }
+}
+
+/* Small screens / phones (≤768px) */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .nft-hero {
+    height: 200px;
+  }
+
+  .left-section {
+    width: 95%;
+  }
+
+  .brand-title {
+    font-size: 28px;
+    left: 20px;
+    top: 15px;
+  }
+
+  .main {
+    gap: 20px;
+  }
+}
+
+/* Extra small screens (≤480px) */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .nft-hero {
+    height: 150px;
+  }
+
+  .left-section p {
+    font-size: 13px;
+  }
+
+  .upload-action-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .input-file-white {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .right-section {
+    grid-template-columns: 1fr 1fr; /* 2x2 NFT grid */
+    gap: 10px;
+  }
+}
