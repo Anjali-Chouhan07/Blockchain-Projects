@@ -1,0 +1,130 @@
+.exit
+console.log(allHashes);
+const allHashes = [hash, anotherHash];
+console.log(isSecondValid);
+const isSecondValid = await cert.verifyCertificate(anotherHash);
+ await cert.addCertificate(anotherHash);
+const anotherHash = ethers.utils.keccak256(ethers.utils.toUtf8Bytes("My Second Certificate"));
+await cert.connect(owner).addCertificate(hash);
+const [owner] = await ethers.getSigners();
+console.log(isValid);
+const isValid = await cert.verifyCertificate(hash);
+await cert.addCertificate(hash);
+const hash = ethers.utils.keccak256(ethers.utils.toUtf8Bytes("My First Certificate"));
+const hash = ethers.utils.keccak256(ethers.utils.toUtf8Bawait cert.addCertificate(hash);
+const cert = await ethers.getContractAt("CertificateVerification", contractAddress);
+const contractAddress = "0x0a58E143D6fC0E6F5eaf6Aac908D2dBA4FF9Cdcf";
+const { ethers } = require("hardhat");
+const hash = ethers.utils.keccak256(ethers.utils.toUtf8Bawait cert.addCertificate(hash);
+const cert = await ethers.getContractAt("CertificateVerification", contractAddress);
+const contrF9Cdcf";
+const { ethers } = require("hardhat");
+await cert.connect(owner).addCertificate(hash);
+const [owner] = await ethers.getSigners();
+console.log(isValid);
+const isValid = await cert.verifyCertificate(hash);
+await cert.addCertificate(hash);
+const hash = ethers.utils.keccak256(ethers.utils.toUtf8Bytes("My First Certificate"));
+const cert = await ethers.getContractAt("CertificateVerification", contractAddress);
+const contractAddress = "0x0a58E143D6fC0E6F5eaf6Aac908D2dBA4FF9Cdcf";
+const { ethers } = require("hardhat");
+await cert.addCertificate(hash);
+const hash = ethers.utils.keccak256(ethers.utils.toUtf8Bytes("My First Certificate"));
+const contrconst cert = await ethers.getContractAt("CertificateVerification", contractAddress);
+const { ethers } = require("hardhat");
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const continue
+const { ethers } = require("hardhat");
+)
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const continue
+const { ethers } = require("hardhat");
+await Cert.addCertificate("0xeee3d77cf784779252ab69fcbf836cc5eb22f200fab9ec1398670f0dcf139b7a");
+await cert.addCertificate("0xeee3d77cf784779252ab69fcbf836cc5eb22f200fab9ec1398670f0dcf139b7a");
+console.log(hash);
+);
+  ethers.utils.toUtf8Bytes("My First Certificate")
+const hash = ethers.utils.keccak256(
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const continue
+const { ethers } = require("hardhat");
+console
+);
+  ethers.utils.toUtf8Bytes("My First Certificate")
+const hash = ethers.utils.keccak256(
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const continue
+const { ethers } = require("hardhat");
+console.log(hash);
+  ethers.utils.);
+let hash = ethers.utils.keccak256(
+console.log(hash);
+);
+  ethers.u
+const hash = ethers.utils.keccak256(
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const cont
+const { ethers } = require("hardhat");
+console.log(hash);  
+  ethers.util);
+const hash = ethers.utils.keccak256(
+);
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const contractAddress = "0x0a58E143D6fC0E6F5eaf6Aac908D2dBA4FF9Cdcf";
+const { ethers } = require("hardhat");
+.exit
+console.log(hash)
+  ethers.util)
+const hash = ethers.utils.keccak256(
+.exit
+console.log(hash)
+  ethers.utils.)
+let hash = ethers.utils.keccak256(
+console.log(hash)
+)
+  ethers.utils.toUtf8Bytes("My First Certificate")
+const hash = ethers.utils.keccak256(
+console.log(hash)
+  ethers.util)
+const hash = ethers.utils.keccak256(
+console.log(hash)
+  ethers.util)
+const hash = ethers.utils.keccak256(
+  ethers.util)
+const hash = ethers.utils.keccak256(
+)
+  contractAddress
+  "CertificateVerification",
+const cert = await ethers.getContractAt(
+const contractAddress = "0x0a58E143D6fC0E6F5eaf6Aac908D2dBA4FF9Cdcf"
+const { ethers } = require("hardhat")
+.exit
+);
+  ethers.toUtf8Bytes("My First Certificate")
+const hash = ethers.keccak256(
+);
+  contractAddress
+  "CertificateVerification",
+const Cert = await ethers.getContractAt(
+const contractAddress = "0x78CB9e6830d7A6521294b0104C87A10E3B6F0270";
+const { ethers } = await import("hardhat");

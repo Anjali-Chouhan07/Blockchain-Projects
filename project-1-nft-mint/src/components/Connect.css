@@ -1,0 +1,30 @@
+.wallet-info {
+  width: 100%;
+  max-width: 380px;
+  margin: 20px auto;
+  padding: 18px 22px;
+  border-radius: 18px;
+
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(0, 255, 255, 0.4);
+
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.wallet-status {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #00ffaa;
+  letter-spacing: 0.6px;
+}
+
+.wallet-address {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00eaff;
+  word-break: break-all;
+  text-shadow: 0 0 8px rgba(0, 200, 255, 0.4);
+}
